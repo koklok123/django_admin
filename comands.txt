@@ -1,0 +1,71 @@
+python manage.py runserver,
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
+
+
+
+
+
+
+
+django-admin startproject <project_name>
+
+    Описание: Создает новый проект Django с заданным именем.
+
+python manage.py runserver
+
+    Описание: Запускает локальный веб-сервер для разработки.
+
+python manage.py startapp <app_name>
+
+    Описание: Создает новое приложение внутри проекта Django.
+
+python manage.py makemigrations
+
+    Описание: Создает файлы миграций на основе изменений в моделях.
+
+python manage.py migrate
+
+    Описание: Применяет миграции к базе данных, создавая или изменяя таблицы в соответствии с моделями.
+
+python manage.py createsuperuser
+
+    Описание: Создает учетную запись администратора для доступа в административную панель Django.
+
+python manage.py shell
+
+    Описание: Запускает интерактивную оболочку Python с доступом к объектам и данным проекта Django.
+
+python manage.py test
+
+    Описание: Выполняет тесты проекта Django.
+
+python manage.py collectstatic
+
+    Описание: Собирает все статические файлы из приложений в одну папку для использования на сервере.
+
+python manage.py flush
+
+    Описание: Очищает все данные из базы данных без удаления самих таблиц.
+
+python manage.py dbshell
+
+    Описание: Запускает оболочку базы данных, где можно выполнять SQL-запросы напрямую.
+
+python manage.py loaddata <file.json>
+
+    Описание: Загружает данные в базу из файла JSON, который был создан с помощью команды dumpdata.
+
+python manage.py dumpdata <app_name> > file.json
+
+    Описание: Экспортирует данные приложения в JSON-формат.
+
+python manage.py check
+
+    Описание: Проверяет проект на наличие ошибок или потенциальных проблем с конфигурацией.
+
+python manage.py showmigrations
+
+    Описание: Показывает список всех миграций, примененных и не примененных в базе данных.
